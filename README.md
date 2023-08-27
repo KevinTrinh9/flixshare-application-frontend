@@ -1,4 +1,4 @@
-#flixshare-application-frontend
+# flixshare-application-frontend
 Welcome to my Flixshare App!
 
 With this app, I have implemented several features linked to The Movie Database (TMDB) API. As a guest without an account, you are able to see the top 10 most popular movies and TV shows at any given time by clicking the respective links on the homepage. You are also able to search for any movie or TV show you'd like using the search bar.
