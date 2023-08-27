@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+#flixshare-application-frontend
+Welcome to my Flixshare App!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+With this app, I have implemented several features linked to The Movie Database (TMDB) API. As a guest without an account, you are able to see the top 10 most popular movies and TV shows at any given time by clicking the respective links on the homepage. You are also able to search for any movie or TV show you'd like using the search bar.
 
-## Available Scripts
+Please use the search feature by typing in any movie or TV show, and a list will show up with the appropriate results relating to your search query. You can also view a description of the movie or TV show by simply clicking on the poster that appears. Once the search results are displayed, you can navigate through other pages of the results with the pagination buttons at the bottom of the results list, provided there are still other movies or TV shows that match your search query.
 
-In the project directory, you can run:
+Please feel free to create an account as well. By doing so, you would just need to enter a proper email address, username, and password. When logging in, you just need to enter your username and password to be able to view your dashboard. In your dashboard, there are now two separate search bars, one for movies and one for TV shows. Please use the appropriate search bar to find any movie or TV show you would like. By having an account, you are able to make lists of your favorite movies and TV shows. You can make as many lists as you want and title them as well.
 
-### `npm start`
+I chose to implement those features so that users can search for any movie or TV show to find some brief information about them. I also wanted users to be able to create lists of their favorite movies or TV shows to be able to show others.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+If you would like to run tests, this application uses Jest.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Here is a link to the API that I used for this project: https://developer.themoviedb.org/reference/intro/getting-started
 
-### `npm test`
+Please note that the TMDB API, although up-to-date, can be missing posters and/or information about specific movies or TV shows from time to time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I used JavaScript, Express.js, Node.js, React.js, JSX, CSS, and PostgreSQL to create my website.
 
-### `npm run build`
+Note: This repository only contains the frontend files. The frontend can be run using 'npm start'.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This is my second capstone project! I hope you find it fun, useful, and easy to use.
