@@ -1,0 +1,164 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  
+h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+form {
+    margin-bottom: 16px;
+  }
+  
+form h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+form input[type="text"],
+form input[type="search"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+form button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.TVShow-result {
+    margin: 16px;
+    text-align: center;
+    width: 200px;
+  }
+  
+.TVShow-result img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+.TVShow-result > div {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+  
+.TVShow-result button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  
+.favorite-list-input {
+    margin-top: 8px;
+    width: 100%;
+    padding: 4px;
+  }
+  
+.add-to-list-button {
+    margin-top: 8px;
+  }
+  
+.TVShow-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+.TVShow-item {
+    margin: 16px;
+    text-align: center;
+    width: 200px;
+  }
+  
+.TVShow-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+.TVShow-item > div {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+  
+.TVShow-item button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  
+.previous-button {
+    margin-right: 8px;
+  }
+  
+.next-button {
+    margin-left: 8px;
+  }
+
+.previous-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+.next-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+.favorite-list-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+.favorite-list-title h4 {
+    font-size: 20px;
+  }
+  
+.favorite-list-title > div {
+    margin-top: 8px;
+  }
+  
+.edit-button {
+    background-color: #28a745;
+  }
+  
+.delete-list-button {
+    background-color: #dc3545;
+    margin-left: 8px;
+  }
+  
